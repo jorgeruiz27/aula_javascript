@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Pagina</title>
+        <meta charset="utf-8">
+        <script charset="text/javascript" src="JS/mais.js"></script>
+        <body onload="load()">
+            
+            <script>
+                alert("meu primeiro js - No mesmo arquivo HTML");
+            </script>
+
+
+            <button type="button" onclick="clicar()">Clique Aqui</button>
+            <h3 id="agradecimento" onclick="redirecionar()"></h3>
+            <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse Aqui</p>
+            <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o Mouse Aqui</p>
+
+            <h1>Minha Pagina</h1>  
+            <select onchange="f_alterou(this)">
+                <option value="1">Valor 1</option>
+                <option value="2">Valor 2</option>
+                <option value="3">Valor 3</option>
+            </select>
+            
+        </body>
+    </head>
+</html>
